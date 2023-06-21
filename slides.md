@@ -147,7 +147,6 @@ struct ContentView: View {
 
 ---
 layout: video-right
-video: assets/videos/video1.mp4
 ---
 
 ## DiceARViewContainer
@@ -182,9 +181,14 @@ arView.debugOptions = !showDebug ? [] : [
 
 </v-click>
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video1.mp4" type="video/mp4">
+</video>
+
 ---
 layout: video-right
-video: assets/videos/video2.mp4
 ---
 
 ## FocusEntity
@@ -206,6 +210,12 @@ func addFocusEntity() {
 
 </v-click>
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video2.mp4" type="video/mp4">
+</video>
+
 ---
 
 ## addDice
@@ -218,7 +228,6 @@ func addFocusEntity() {
 
 ---
 layout: video-right
-video: assets/videos/video3.mp4
 ---
 
 ## addDice
@@ -238,9 +247,14 @@ func addDice() {
 }
 ```
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video3.mp4" type="video/mp4">
+</video>
+
 ---
 layout: video-right
-video: assets/videos/video4.mp4
 ---
 
 ## addDicePhysics
@@ -264,9 +278,14 @@ func addDicePhysics(diceEntity: ModelEntity) {
 }
 ```
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video4.mp4" type="video/mp4">
+</video>
+
 ---
 layout: video-right
-video: assets/videos/video5.mp4
 ---
 
 ## createTablePlane
@@ -296,9 +315,14 @@ func createTablePlane(focusPosition: SIMD3<Float>) -> ModelEntity {
 }
 ```
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video5.mp4" type="video/mp4">
+</video>
+
 ---
 layout: video-right
-video: assets/videos/video6.mp4
 ---
 
 ## pokeDice
@@ -321,9 +345,14 @@ func pokeDice() {
 }
 ```
 
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video6.mp4" type="video/mp4">
+</video>
+
 ---
 layout: video-right
-video: assets/videos/video7.mp4
 ---
 
 ## addFloor
@@ -353,6 +382,12 @@ func addFloor() -> AnchorEntity {
   arView.scene.addAnchor(diceAnchor)
 }
 ```
+
+::right::
+
+<video v-click width="886" height="1920" controls>
+  <source src="/assets/videos/video7.mp4" type="video/mp4">
+</video>
 
 ---
 layout: center

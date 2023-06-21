@@ -1,9 +1,11 @@
 {
-  "name": "2023-05-17-react-server-components-presentation",
+  "name": "presentation",
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build",
+    "build": "slidev build --base=web-mobile-2023-ar-mobile",
+    "postbuild": "shx cp -r ./assets/backgrounds ./dist/assets",
+    "gh-publish": "gh-pages --dist ./dist",
     "export": "slidev export --dark",
     "format": "pnpm -w format"
   },
@@ -33,6 +35,8 @@
     }
   },
   "devDependencies": {
-    "playwright-chromium": "^1.33.0"
+    "gh-pages": "^5.0.0",
+    "playwright-chromium": "^1.33.0",
+    "shx": "^0.3.4"
   }
 }

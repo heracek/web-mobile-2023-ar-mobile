@@ -31,6 +31,71 @@ background: ./assets/backgrounds/cover.svg
 ### 📽️ 2. Demo
 
 ---
+layout: cover
+background: ./assets/backgrounds/cover.svg
+---
+
+# 📖 1. AR on Apple platforms
+
+---
+
+<div style="font-size: 150%">
+
+# ARKit SDK
+
+<v-clicks depth="2">
+
+- 🤖 understands surroundings
+  - cameras, device motion, LiDAR
+- 🏭 scene processing
+  - 🚪 detecting planes (floor, table, wall, window, door, ...)
+- ⚓ anchoring
+- 💀 face & body tracking
+
+</v-clicks>
+
+</div>
+
+---
+
+<div style="font-size: 150%">
+
+# RealityKit SDK
+
+<v-clicks depth="2">
+
+- 🧑‍🔬 3D engine for ARKit
+- 🎲 place 3D objects into real world
+- 🏋️ physics
+- 🔦 realistic lighting
+
+</v-clicks>
+
+</div>
+
+---
+layout: center
+---
+
+<div style="text-align: center;">
+
+# ARKit & RealityKit
+
+<br/>
+<br/>
+
+### available on iOS, ipadOS, and visionOS
+
+</div>
+
+---
+layout: cover
+background: ./assets/backgrounds/cover.svg
+---
+
+# 📽️ 2. Demo
+
+---
 layout: center
 ---
 
@@ -39,20 +104,6 @@ layout: center
     <source src="/assets/videos/video-final.mp4" type="video/mp4">
   </video>
 </div>
-
----
-layout: cover
-background: ./assets/backgrounds/cover.svg
----
-
-# 📖 1. AR on Apple platforms
-
----
-layout: cover
-background: ./assets/backgrounds/cover.svg
----
-
-# 📽️ 2. Demo
 
 ---
 layout: two-cols

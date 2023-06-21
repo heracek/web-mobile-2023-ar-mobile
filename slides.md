@@ -22,18 +22,37 @@ Vladimír Vrška \<<vvr@ciklum.com>\>, Tomáš Horáček \<<toh@ciklum.com>\>
 
 ---
 layout: cover
+background: ./assets/backgrounds/cover.svg
 ---
 
 # Table of Contents
 
-1. AR
+### 📖 1. AR on Apple platforms
+### 📽️ 2. Demo
 
 ---
-layout: video-right
-video: assets/videos/video2.mp4
+layout: center
 ---
 
-# Final
+<div style="width:223px">
+  <video width="886" height="1920" controls>
+    <source src="/assets/videos/video-final.mp4" type="video/mp4">
+  </video>
+</div>
+
+---
+layout: cover
+background: ./assets/backgrounds/cover.svg
+---
+
+# 📖 1. AR on Apple platforms
+
+---
+layout: cover
+background: ./assets/backgrounds/cover.svg
+---
+
+# 📽️ 2. Demo
 
 ---
 layout: two-cols
@@ -77,7 +96,7 @@ struct ContentView: View {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video1.mp4
 ---
 
 ## DiceARViewContainer
@@ -114,7 +133,7 @@ arView.debugOptions = !showDebug ? [] : [
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video2.mp4
 ---
 
 ## FocusEntity
@@ -148,7 +167,7 @@ func addFocusEntity() {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video3.mp4
 ---
 
 ## addDice
@@ -170,7 +189,7 @@ func addDice() {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video4.mp4
 ---
 
 ## addDicePhysics
@@ -196,7 +215,7 @@ func addDicePhysics(diceEntity: ModelEntity) {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video5.mp4
 ---
 
 ## createTablePlane
@@ -228,7 +247,7 @@ func createTablePlane(focusPosition: SIMD3<Float>) -> ModelEntity {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video6.mp4
 ---
 
 ## pokeDice
@@ -253,7 +272,7 @@ func pokeDice() {
 
 ---
 layout: video-right
-video: assets/videos/todo.mp4
+video: assets/videos/video7.mp4
 ---
 
 ## addFloor
@@ -283,6 +302,22 @@ func addFloor() -> AnchorEntity {
   arView.scene.addAnchor(diceAnchor)
 }
 ```
+
+---
+layout: center
+---
+
+<v-clicks>
+
+<h1 style="scale: 2">
+  ✅ Done<br/><br/>
+</h1>
+
+<h1 style="scale: 2">
+  😀 Easy
+</h1>
+
+</v-clicks>
 
 ---
 layout: cover

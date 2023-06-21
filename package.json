@@ -1,0 +1,38 @@
+{
+  "name": "2023-05-17-react-server-components-presentation",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export --dark",
+    "format": "pnpm -w format"
+  },
+  "dependencies": {
+    "@slidev/cli": "0.42.5",
+    "@slidev/client": "0.42.5",
+    "@slidev/theme-default": "0.21.2",
+    "@slidev/theme-seriph": "0.21.3"
+  },
+  "slidev": {
+    "default": {
+      "theme": "default",
+      "transition": "",
+      "aspectRatio": "16/9",
+      "canvasWidth": 960,
+      "fonts": {
+        "provider": "google",
+        "sans": "Lexend",
+        "serif": "Lexend",
+        "mono": "Roboto Mono"
+      },
+      "highlighter": "shiki",
+      "lineNumbers": false,
+      "drawings": {
+        "persist": false
+      }
+    }
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.33.0"
+  }
+}

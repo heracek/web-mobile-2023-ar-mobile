@@ -188,6 +188,18 @@ arView.debugOptions = !showDebug ? [] : [
 </video>
 
 ---
+layout: center
+---
+
+<div style="zoom: 1">
+
+<video width="675" height="472" controls>
+  <source src="/assets/videos/lidar.mp4" type="video/mp4">
+</video>
+
+</div>
+
+---
 layout: video-right
 ---
 
